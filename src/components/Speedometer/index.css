@@ -1,0 +1,84 @@
+.bg-container {
+  height: 130vh;
+  background-color: #07080c;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-heading-1 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-heading-2 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-image {
+  height: 120px;
+  width: 80vw;
+}
+
+.card-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-button-1 {
+  height: 40px;
+  width: 110px;
+  border-radius: 7px;
+  border: 0px solid;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin: 20px;
+}
+
+.card-button-2 {
+  height: 40px;
+  width: 110px;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #ffffff;
+  margin: 20px;
+  border: 1px solid #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    justify-content: center;
+  }
+  .card-image {
+    height: 500px;
+    width: 85vw;
+  }
+  .card-heading-1 {
+    font-size: 40px;
+  }
+  .card-heading-2 {
+    font-size: 40px;
+  }
+  .card-description {
+    font-size: 20px;
+  }
+}
